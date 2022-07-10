@@ -1,3 +1,13 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-text-color-dark-theme: #ffffff;
+  --main-text-color-white-theme: #212121;
+  --secondary-text-color-white-theme: #757575;
+  --accent-color: #2196f3;
+  --main-background-color: #2f303a;
+}
+
 .list {
   list-style: none;
 }
@@ -5,3 +15,26 @@
 .link {
   text-decoration: none;
 }
+
+body {
+  font-family: var(--primary-font);
+}
+/* ===================== COMPONENTS =====================  */
+
+/* ======================/COMPONENTS =====================*/
+
+/* =======================HEADER ===========================  */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--main-text-color-white-theme);
+}
+.logo-part {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+/*======================== /HEADER==========================  */
