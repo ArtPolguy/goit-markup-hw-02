@@ -37,4 +37,29 @@ body {
   font-size: 26px;
   line-height: 1.2;
 }
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color-white-theme);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.contact-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-white-theme);
+}
+.contact-item {
+  color: inherit;
+}
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--accent-color);
+}
 /*======================== /HEADER==========================  */
