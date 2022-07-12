@@ -20,7 +20,19 @@ body {
   font-family: var(--primary-font);
 }
 /* ===================== COMPONENTS =====================  */
-
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-white-theme);
+}
+.card-title {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-white-theme);
+}
 /* ======================/COMPONENTS =====================*/
 
 /* =======================HEADER ===========================  */
@@ -63,3 +75,97 @@ body {
   color: var(--accent-color);
 }
 /*======================== /HEADER==========================  */
+
+/* =========================MAIN============================ */
+/* advantages section */
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-text-color-dark-theme);
+  /* adding background color in order to see the words on the page */
+  background-color: #2f303a;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color-dark-theme);
+  background-color: var(--accent-color);
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  cursor: pointer;
+}
+.advantages-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color-white-theme);
+}
+.advantages-descrp {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-white-theme);
+}
+/* team section */
+.colleagues-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-white-theme);
+}
+/*=====================================/ main ======================================*/
+/* ====================================footer====================================== */
+.contacts {
+  font-style: normal;
+}
+
+.contact-footer {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-dark-theme);
+  /* adding background color in order to see the words on the page */
+  background-color: var(--secondary-text-color-white-theme);
+}
+.contact-address {
+  color: inherit;
+}
+.contact-link {
+  color: inherit;
+}
+/* ===================================/footer===================================== */
+/* portfolio */
+.works-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-white-theme);
+  cursor: pointer;
+}
+.works-button:hover,
+.works-button:focus {
+  background-color: var(--accent-color);
+  color: var(--main-text-color-dark-theme);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color-white-theme);
+}
